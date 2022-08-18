@@ -1,0 +1,9 @@
+---
+applications:
+- name: myapp
+  routes:
+    - route: pythonapp-takayuki-tutorial.cfapps.us10.hana.ondemand.com
+  path: ./
+  memory: 128M
+  buildpack: python_buildpack
+  command: python server.py
